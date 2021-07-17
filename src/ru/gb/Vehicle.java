@@ -1,6 +1,6 @@
 package ru.gb;
 
-public  class Vehicle {
+public abstract class  Vehicle {
     protected int VIN;
     protected String color;
     protected String kind;

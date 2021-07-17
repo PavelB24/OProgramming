@@ -8,10 +8,11 @@ private String number;
         super(VIN, color, kind);
         this.horsePowers=horsePowers;
         this.number=number;
-
     }
     public Car(){};
-
+    public Car( int VIN){
+        this.VIN=VIN;
+    }
     public void getInfo(){
         System.out.println(VIN);
         System.out.println(color);
@@ -20,6 +21,6 @@ private String number;
         System.out.println(number);
     }
     public String toString(){
-        return kind;
+        return VIN+ "";
     }
 }

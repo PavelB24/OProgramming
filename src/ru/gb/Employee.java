@@ -36,21 +36,28 @@ public class Employee extends Human {
     public void saySomething(){
         System.out.println("Привет, я тут работаю за еду");
     }
+
     @Override
     public void toDoSomething(){
         System.out.println("*Работник поковырялся в носу");
     }
+
     public void setName(String name){
         this.name=name;
     }
+
     public void setPosition(String position){
         this.position=position;}
+
     public void setEmail(String email){
         this.email=email;}
+
     public void setPhoneNumber(long phoneNumber){
         this.phoneNumber=phoneNumber;}
+
     public void setSalary(int salary){
         this.salary=salary;}
+
     public void setAge( int age){
         this.age=age;}
 
