@@ -32,22 +32,22 @@ public class Main {
            System.out.println("Я что-то сделал, я молодец");
        }
    };
-   hI.toDoSomething();
-   myCar.getInfo();
+//   hI.toDoSomething();
+//   myCar.getInfo();
         List<Car> carList= new ArrayList<>();
         carList.add(myCar);
         carList.add(new Car(1585));
         carList.add(new Car(48488));
-        carList.get(0).getInfo();
-        System.out.println(myCar.toString());
-        testList(carList);
+//        carList.get(0).getInfo();
+//        System.out.println(myCar.toString());
+//        testList(carList);
         carList.add(new Car(415551181));
-        Car car3= new Car(){
-            public void getInfo(){
-                System.out.println("Машина в сервисе");
-            }
-        };
-        car3.getInfo();
+//        Car car3= new Car(){
+//            public void getInfo(){
+//                System.out.println("Машина в сервисе");
+//            }
+//        };
+//        car3.getInfo();
 
 
     }
